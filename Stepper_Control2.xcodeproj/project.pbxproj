@@ -13,6 +13,7 @@
 		C8F5E8FB1D1C51EA0030DF13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8F5E8F91D1C51EA0030DF13 /* Main.storyboard */; };
 		C8F5E8FD1D1C51EA0030DF13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8F5E8FC1D1C51EA0030DF13 /* Assets.xcassets */; };
 		C8F5E9001D1C51EA0030DF13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8F5E8FE1D1C51EA0030DF13 /* LaunchScreen.storyboard */; };
+		C8F5E9091D1C52290030DF13 /* StepperView.m in Sources */ = {isa = PBXBuildFile; fileRef = C8F5E9081D1C52290030DF13 /* StepperView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		C8F5E8FC1D1C51EA0030DF13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C8F5E8FF1D1C51EA0030DF13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C8F5E9011D1C51EA0030DF13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8F5E9071D1C52290030DF13 /* StepperView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StepperView.h; sourceTree = "<group>"; };
+		C8F5E9081D1C52290030DF13 /* StepperView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StepperView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				C8F5E8F41D1C51EA0030DF13 /* AppDelegate.m */,
 				C8F5E8F61D1C51EA0030DF13 /* ViewController.h */,
 				C8F5E8F71D1C51EA0030DF13 /* ViewController.m */,
+				C8F5E9071D1C52290030DF13 /* StepperView.h */,
+				C8F5E9081D1C52290030DF13 /* StepperView.m */,
 				C8F5E8F91D1C51EA0030DF13 /* Main.storyboard */,
 				C8F5E8FC1D1C51EA0030DF13 /* Assets.xcassets */,
 				C8F5E8FE1D1C51EA0030DF13 /* LaunchScreen.storyboard */,
@@ -151,6 +156,7 @@
 			files = (
 				C8F5E8F81D1C51EA0030DF13 /* ViewController.m in Sources */,
 				C8F5E8F51D1C51EA0030DF13 /* AppDelegate.m in Sources */,
+				C8F5E9091D1C52290030DF13 /* StepperView.m in Sources */,
 				C8F5E8F21D1C51EA0030DF13 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

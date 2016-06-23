@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "StepperView.h"
 
 @interface ViewController ()
 
@@ -16,12 +17,27 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    StepperView *stepperView = [[StepperView alloc] initWithFrame:CGRectMake(0, 0, 300, 50)];
+    stepperView.backgroundColor = [UIColor redColor];
+    stepperView.minValue = 0;
+    stepperView.maxValue = 10;
+    stepperView.stepperValue = 5;
+
+    stepperView.center = self.view.center;
+    stepperView.delegate = self;
+    [self.view addSubview:stepperView];
+    
+    }
+
+-(void) stepperLabelValueChanged:(int)count {
+    
+    NSLog(@"StepperValue = %d",count);
 }
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 @end
