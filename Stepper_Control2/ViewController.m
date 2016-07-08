@@ -7,7 +7,6 @@
 //
 
 #import "ViewController.h"
-#import "StepperView.h"
 
 @interface ViewController ()
 
@@ -18,6 +17,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    self.view.backgroundColor = [UIColor purpleColor];
+    
     StepperView *stepperView = [[StepperView alloc] initWithFrame:CGRectMake(0, 0, 300, 50)];
     stepperView.backgroundColor = [UIColor redColor];
     stepperView.minValue = 0;
@@ -27,6 +28,8 @@
     stepperView.center = self.view.center;
     stepperView.delegate = self;
     [self.view addSubview:stepperView];
+    
+
     
     }
 
