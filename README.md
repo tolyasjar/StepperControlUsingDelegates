@@ -1,2 +1,2 @@
 # StepperControlUsingDelegates
-![alt tag](https://media.giphy.com/media/26BGMNOdHD4LWkzZe/source.gif)
+![alt tag](https://github.com/tolyasjar/StepperControlUsingDelegates/blob/master/StepperView.gif?raw=true)
